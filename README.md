@@ -7,7 +7,7 @@ The analysis utilises publicly available datasets accessed through the [PDXNet P
 ## Folder Structure
 - **Control Analysis**: Contains individual fits (119 for each analysis) and models analysed under control conditions (no drug is present).
   - *Surrey TVM:* Individual fits and models from the Surrey TVM.
-    - Diffusion-Limited model (varying $GF(0)$)
+    - Diffusion-Limited model (varying GF(0))
       - $GF(0) = 0.25$
       - $GF(0) = 0.50$
     - Proliferative Rim model
@@ -17,12 +17,15 @@ The analysis utilises publicly available datasets accessed through the [PDXNet P
     - $GF(0) = 0.50$
     - $GF(0) = 0.75$
 - **Drug Analysis**: Contains individual fits (33 for each analysis) and models analysed under drug conditions (Docetaxel administration).
-  - *Surrey TVM:* Individual fits and models from the Surrey TVM, including coupling mechanisms and for varying $GF(0)$.
-    - Diffusion-Limited model (varying $GF(0)$)
-      - $GF(0) = 0.25$
-      - $GF(0) = 0.50$
+  - *Surrey TVM:* Individual fits and models from the Surrey TVM, including coupling mechanisms and for varying GF(0).
+    - Diffusion-Limited model (varying GF(0))
+      - Power Coupling
+        - $GF(0) = 0.25$
+        - $GF(0) = 0.50$
     - Surface Growth model
-  - *Yates' TVM:* Individual fits and models from the Yates TVM, including coupling mechanisms.
+      - Hill Coupling
+      - Power Coupling
+  - *Yates' TVM:* Individual fits and models from the Yates TVM, including coupling mechanisms (Michaelis-Menten).
     - $GF(0) = 0.25$
     - $GF(0) = 0.50$
     - $GF(0) = 0.75$
